@@ -1,0 +1,939 @@
+INFO: 2017/12/19 16:40:13 youdao.go:146: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=auto&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api&salt=53&sign=b53e5b1c49145710bd8c15b406f2c5a8&to=auto
+INFO: 2017/12/19 16:40:13 youdao.go:160: RESP:  {0  [Hello world. I'm testing the API for the youdao dictionary] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api} {http://m.youdao.com/dict?le=eng&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api} zh-CHS2EN}
+INFO: 2017/12/19 16:46:13 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=auto&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api&salt=53&sign=b53e5b1c49145710bd8c15b406f2c5a8&to=auto
+INFO: 2017/12/19 16:46:14 youdao.go:164: RESP:  {0 Hello world. 我在测试有道词典的api [Hello world. I'm testing the API for the youdao dictionary] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api} {http://m.youdao.com/dict?le=eng&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api} zh-CHS2EN}
+INFO: 2017/12/19 16:46:14 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22&salt=53&sign=8fc77426bca4381fbd888df9345a3568&to=zh-CHS
+INFO: 2017/12/19 16:46:14 youdao.go:164: RESP:  {0  [第一次飞行
+约翰逊先生以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去看他自己的小飞机，约翰逊先生非常担心。然而，最后，他的朋友说服了他，那是非常安全的，约翰逊先生登上了飞机。
+他的朋友发动了引擎，开始在机场跑道上滑行。约翰逊先生听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛。
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人。它们看起来像蚂蚁一样小，不是吗?
+“那些是蚂蚁，”他的朋友回答。“我们还在地面上。”] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22} EN2zh-CHS}
+INFO: 2017/12/19 16:46:29 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=auto&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api&salt=53&sign=b53e5b1c49145710bd8c15b406f2c5a8&to=auto
+INFO: 2017/12/19 16:46:30 youdao.go:164: RESP:  {0 Hello world. 我在测试有道词典的api [Hello world. I'm testing the API for the youdao dictionary] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api} {http://m.youdao.com/dict?le=eng&q=Hello+world.+%E6%88%91%E5%9C%A8%E6%B5%8B%E8%AF%95%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8%E7%9A%84api} zh-CHS2EN}
+INFO: 2017/12/19 16:46:30 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight&salt=53&sign=b85f888ed4d9a634f5acb408c34482c6&to=zh-CHS
+INFO: 2017/12/19 16:49:10 youdao.go:199: 41 0 20
+INFO: 2017/12/19 16:49:10 youdao.go:199: 41 20 21
+INFO: 2017/12/19 16:49:10 youdao.go:199: 175 0 20
+INFO: 2017/12/19 16:49:10 youdao.go:199: 175 140 27
+INFO: 2017/12/19 16:51:33 youdao.go:199: 4 0 4
+INFO: 2017/12/19 16:51:33 youdao.go:199: 41 0 41
+INFO: 2017/12/19 16:51:33 youdao.go:199: 175 0 175
+INFO: 2017/12/19 16:51:33 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:199: 12 0 12
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80Mr&salt=53&sign=990e4edf06c90f27f68a5c4909a17f8a&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight&salt=53&sign=b85f888ed4d9a634f5acb408c34482c6&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:199: 141 0 141
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=b70f9c3317046e86293c03e15e9f31a7&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:199: 26 0 26
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:199: 80 0 80
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b4c4b0891ff2a12c7489170c1ab4e32d&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:199: 3 0 3
+INFO: 2017/12/19 16:51:33 youdao.go:199: 39 0 39
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:199: 39 0 39
+INFO: 2017/12/19 16:51:33 youdao.go:199: 27 0 27
+INFO: 2017/12/19 16:51:33 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:51:33 youdao.go:199: 145 0 145
+INFO: 2017/12/19 16:51:33 youdao.go:199: 73 0 73
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=c131c234a28c1b6982230a229c977264&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0 　　Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+ERROR: 2017/12/19 16:51:33 youdao.go:161: Decode to json failed json: cannot unmarshal array into Go struct field .value of type string
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0 　　"Those are ants," answered his friend [“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0 　　His friend started the engine and began to taxi onto the runway of the airport [他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0 　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 16:51:33 youdao.go:164: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:199: 4 0 4
+INFO: 2017/12/19 16:53:11 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:53:11 youdao.go:199: 175 0 175
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 41 0 41
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 73 0 73
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 26 0 26
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 80 0 80
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b4c4b0891ff2a12c7489170c1ab4e32d&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80Mr&salt=53&sign=990e4edf06c90f27f68a5c4909a17f8a&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 145 0 145
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 141 0 141
+INFO: 2017/12/19 16:53:11 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=b70f9c3317046e86293c03e15e9f31a7&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 39 0 39
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=c131c234a28c1b6982230a229c977264&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 27 0 27
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 12 0 12
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight&salt=53&sign=b85f888ed4d9a634f5acb408c34482c6&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 3 0 3
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:199: 39 0 39
+INFO: 2017/12/19 16:53:11 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0 　　Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0 　　His friend started the engine and began to taxi onto the runway of the airport [他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  [“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0 　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+ERROR: 2017/12/19 16:53:11 youdao.go:161: Decode to json failed json: cannot unmarshal array into Go struct field .value of type string
+INFO: 2017/12/19 16:53:11 youdao.go:164: RESP:  {0  [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:199: 26 0 26
+INFO: 2017/12/19 16:54:06 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:54:06 youdao.go:199: 81 0 81
+INFO: 2017/12/19 16:54:06 youdao.go:199: 3 0 3
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 142 0 142
+INFO: 2017/12/19 16:54:06 youdao.go:199: 39 0 39
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 41 0 41
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 27 0 27
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 73 0 73
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 175 0 175
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 17 0 17
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 41 0 41
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:199: 145 0 145
+INFO: 2017/12/19 16:54:06 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:54:06 youdao.go:164: RESP:  {0  [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:199: 17 0 17
+INFO: 2017/12/19 16:56:03 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 73 0 73
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 145 0 145
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 26 0 26
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 142 0 142
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 81 0 81
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 39 0 39
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 3 0 3
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 27 0 27
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 41 0 41
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 41 0 41
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:199: 175 0 175
+INFO: 2017/12/19 16:56:03 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0 
+　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:56:03 youdao.go:164: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 16:57:37 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:57:37 youdao.go:199: 175 170 27
+INFO: 2017/12/19 16:57:37 youdao.go:199: 175 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 17 10 17
+INFO: 2017/12/19 16:59:54 youdao.go:199: 17 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 3 0 3
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ht%0A%E3%80%80%E3%80%80Mr&salt=53&sign=9a1b032b6432bf017d4c6d7e19a42058&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flig&salt=53&sign=9e7a6725a077f30dda6e5c3e398b0019&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 1 0 1
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 70 73
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 40 50
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 70 80
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=us+part+of&salt=53&sign=54c0b403b3ce62f8387844a2b39cc2e0&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ake-off+an&salt=53&sign=182c2df930c7c327607eeb8dabc34705&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ened+them+&salt=53&sign=9fef92d7bbed6d7595609591c3ca5dfd&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+two+he+op&salt=53&sign=a930ce7f06169570b779c70c5f4cedd7&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 40 50
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 50 60
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=again%2C+loo&salt=53&sign=55224fd660a3b6aabc3c362d827cb667&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 60 70
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ked+out+of&salt=53&sign=0b711ca88fc3716ac50fa3be1c7b8d84&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 90 100
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 110 120
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=said+to+hi&salt=53&sign=ab46e71902651c221713de0b420a638b&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22Look+at+t&salt=53&sign=eb1fd61e1ac4690e9e451724b14247d5&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 130 140
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=e+down+the&salt=53&sign=f1ec57b9f45b25dcb7be39298853c5f9&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 27 20 27
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+ground&salt=53&sign=5a662e64e94b0ba165610b01c3d2ef37&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 26 20 26
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 170 175
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 40 50
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 50 60
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 60 70
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 70 80
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 80 90
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 90 100
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 100 110
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 110 120
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 120 130
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 140 150
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 130 140
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 150 160
+INFO: 2017/12/19 16:59:54 youdao.go:199: 175 160 170
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 80 81
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=rried+abou&salt=53&sign=dcab5ccdc87e454c1aeecf8ba1ae8fe9&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 40 50
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 50 60
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 60 70
+INFO: 2017/12/19 16:59:54 youdao.go:199: 26 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 26 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 40 50
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 50 60
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 60 70
+INFO: 2017/12/19 16:59:54 youdao.go:199: 81 70 80
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 60 70
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 50 60
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 90 100
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+the+windo&salt=53&sign=db1cf79c94febab634d81ead60d5dfa1&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 100 110
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 27 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ad+heard+t&salt=53&sign=1591b4ecc9c09390c3774d09efbb53f2&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 27 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 39 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 140 145
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 100 110
+INFO: 2017/12/19 16:59:54 youdao.go:199: 39 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 110 120
+INFO: 2017/12/19 16:59:54 youdao.go:199: 39 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 120 130
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 130 140
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 20 30
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 40 41
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 30 40
+INFO: 2017/12/19 16:59:54 youdao.go:199: 41 40 41
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=r+accident&salt=53&sign=7f76caff6fca4b175b691b76d9a37756&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=s%2C+so+one+&salt=53&sign=8c770d9e42fa2f395bc3675f631a4168&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+friend+of&salt=53&sign=351ef7ac1058a783ff9a7fa9f6fe8b3c&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 73 10 20
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+&salt=53&sign=c352c231da65117671f4ce31590c4f39&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=however%2C+h&salt=53&sign=ddbb6a66f8e241131cb1aa6130e6932d&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 80 90
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 70 80
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 140 142
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 80 90
+INFO: 2017/12/19 16:59:54 youdao.go:199: 142 120 130
+INFO: 2017/12/19 16:59:54 youdao.go:199: 145 0 10
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=s+friend%2C+&salt=53&sign=d365b4fecf884955b8fd34a087ec15cc&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+plane&salt=53&sign=f7e6e53e49fba89504da9bc800666fcf&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=e%2C+Mr&salt=53&sign=93f029920a02a96dd6fe4dfa9e3dcb69&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+h&salt=53&sign=7874bd81b2399294968075a3e8e4c2f2&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ad+never+b&salt=53&sign=83938cf093220e6bf0324a1422bd0e04&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=een+up+in+&salt=53&sign=7af6cba711e8c10aa68fb6606c3bf515&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=an+aeropha&salt=53&sign=fbdebbd4af8df3ab3fc39a72c7fae72b&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ne+before+&salt=53&sign=1c31b82450ba93e0b1e72a6b16c868af&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=and+he+had&salt=53&sign=15db1e1aa1241d023c4d462dfa666f1f&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+read+a+lo&salt=53&sign=4e3ab639c18c170734f36effd57d6d13&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=t+about+ai&salt=53&sign=48ac1dbcd2ae380500b89897be3c350b&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=fered+to+t&salt=53&sign=b074a2e07c7c1c2d74eb6a3a79de33f7&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=r+a+ride+i&salt=53&sign=3a3d5a2e94bb6b93aaf46ee223ecbd73&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ake+him+fo&salt=53&sign=42a6918de9013e3cf34fb63fd9432f49&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=n+his+own+&salt=53&sign=2fca6093f2e071c3477482a33e25ded5&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=small+phan&salt=53&sign=f8cdf429baa1e5e63965f611931ec582&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=hat+the+mo&salt=53&sign=b8b832039343a0771d75ee48fe91ac62&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=t&salt=53&sign=ef1313a9595268eb288645b14f3bf7ec&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+w&salt=53&sign=5a4e831e23ec78a64fbe1e51fe9ba7dc&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=as+very+wo&salt=53&sign=73ebb551cd04946268e4cc8908f8cbda&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=t+acceptin&salt=53&sign=22edfc494fbb5e152ca2982edb15ef8b&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=is+friend+&salt=53&sign=fe952ed41d5870f74120564526994d5b&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=him+that+i&salt=53&sign=26961428031a91ef049d029102bb26f6&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=t+was+very&salt=53&sign=40458b8c15d5f37b8f14771744a132cf&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+safe%2C+and&salt=53&sign=afa1c24973fe2aa0ce2f5de6a6ca7f83&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+b&salt=53&sign=33f8f62e4bdab4f6cde79e60c44a8faa&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=oarded+the&salt=53&sign=6c719975252081c5f108f110839070e4&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+fri&salt=53&sign=ffa6d316afda5ef59142ad67a726ead9&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=end+starte&salt=53&sign=044791b535a507152f25d11dfb9a4bd5&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=d+the+engi&salt=53&sign=bcb42de9352687e7e0574bd6a4e11a14&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ne+and+beg&salt=53&sign=0cafecb4fc72dd3e3e00b7b65aaf053e&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=an+to+taxi&salt=53&sign=86c5361d39e8b5710afd9b57919218f1&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+onto+the+&salt=53&sign=437793892ade53ef96888bc0f0798c6b&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=runway+of+&salt=53&sign=522e7a80e436992bab5d98cd5f82c4fb&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=were+the+t&salt=53&sign=aafd10bce651338e6c40757a5e5b628d&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=the+airpor&salt=53&sign=74b5702be05c6cd35fbf30d14a030f29&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=st+dangero&salt=53&sign=f87ccbb0a269842aa8cb64e586aca1dc&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+a+flight+&salt=53&sign=09c6d58b37ab56ea6c612ca1d8e940fb&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ing%2C+so+he&salt=53&sign=8b0eebc12a1344989f2db4518143727d&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:199: 39 30 39
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a&salt=53&sign=549f17e961eb84d74022505af28219f4&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+st&salt=53&sign=02c33cb141ebd197be26a6bc4f8a2b93&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=ill+on+the&salt=53&sign=c68c2a90dd6dbe991be1459216032a81&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=as+ants%2C+d&salt=53&sign=cfb8b41de7ecf55abd41b94ebdfaec30&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+eyes&salt=53&sign=fb8fc5896d5c903fa45ea05dfa7ef6d8&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+minute+or&salt=53&sign=c516a5c8e396afbdfc206362e0d0fb26&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+was+extre&salt=53&sign=6d4e2f90f2fbafa0cfe333594fea64ff&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look&salt=53&sign=c88ab1cc1b53d027428514792d7cb0eb&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=mely+frigh&salt=53&sign=b1b8f45a7a42e7a43a663362908a8577&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+as+small+&salt=53&sign=e7f464f226209f7acf50141610072dfd&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=tened+and+&salt=53&sign=91027b3528c85c735e0d8d69781c1fee&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+are+ants%2C&salt=53&sign=28fe89fe98e4e07105e49bc116266487&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=closed+his&salt=53&sign=136acfb7cbfc763e41d2ef77954c4fcd&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those&salt=53&sign=d27e5a1292619c9ecc26bb021a7ef404&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22+answered&salt=53&sign=b57d6998c8838cf3df7c3e7ebe6f8b1e&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=d&salt=53&sign=1c51f8b6e85930f2cd4fce6482105fe3&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+his+frien&salt=53&sign=a3cb0f154e1b0d06ced70200375da00c&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=g&salt=53&sign=08f03d484449aca48606e55b0f27c4f8&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=day+when+a&salt=53&sign=7d55f7c080769c3f88f98efa9ace8d17&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=persuaded+&salt=53&sign=0d4c8ae61358fa742e8d3f8b3199306c&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=d+the+land&salt=53&sign=c50b29687e2e127e379dbccacbe57d13&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=w+of+the+p&salt=53&sign=6311818bd28199ea073ba69d20eacc2f&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=re&salt=53&sign=5293886b1e1dd42edbc4e6aaf279a6a2&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=lane%2C+and+&salt=53&sign=f22982942866940b53a309bd565cd6e5&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=hose+peopl&salt=53&sign=ba0311875c694359a19ce242a3fd5c04&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+h&salt=53&sign=7874bd81b2399294968075a3e8e4c2f2&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:150: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=on%27t+they&salt=53&sign=a59b1cbe19962cf82e4d5b830ebae145&to=zh-CHS
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [第一个Flig] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flig} {http://m.youdao.com/dict?le=eng&q=First+Flig} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [他们看起来] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look} {http://m.youdao.com/dict?le=eng&q=+They+look} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ht
+　　Mr [ht
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ht%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=ht%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 end starte [结束starte] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=end+starte} {http://m.youdao.com/dict?le=eng&q=end+starte} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [我们的一部分] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=us+part+of} {http://m.youdao.com/dict?le=eng&q=us+part+of} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  Johnson h [约翰逊h] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+h} {http://m.youdao.com/dict?le=eng&q=+Johnson+h} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 oarded the [飞船上的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=oarded+the} {http://m.youdao.com/dict?le=eng&q=oarded+the} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [t非常] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=t+was+very} {http://m.youdao.com/dict?le=eng&q=t+was+very} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [读一瞧] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+read+a+lo} {http://m.youdao.com/dict?le=eng&q=+read+a+lo} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 mely frigh [这位母亲但是] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=mely+frigh} {http://m.youdao.com/dict?le=eng&q=mely+frigh} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  was extre [是extre] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+was+extre} {http://m.youdao.com/dict?le=eng&q=+was+extre} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [一个aeropha] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=an+aeropha} {http://m.youdao.com/dict?le=eng&q=an+aeropha} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 on't they [在他们] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=on%27t+they} {http://m.youdao.com/dict?le=eng&q=on%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [e,先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=e%2C+Mr} {http://m.youdao.com/dict?le=eng&q=e%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [rried阿布] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=rried+abou} {http://m.youdao.com/dict?le=eng&q=rried+abou} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [到] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+onto+the+} {http://m.youdao.com/dict?le=eng&q=+onto+the+} EN2zh-CHS}
+ERROR: 2017/12/19 16:59:54 youdao.go:161: Decode to json failed json: cannot unmarshal array into Go struct field .value of type string
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [他的祖父母] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+his+frien} {http://m.youdao.com/dict?le=eng&q=+his+frien} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [一个出租车] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=an+to+taxi} {http://m.youdao.com/dict?le=eng&q=an+to+taxi} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [ake-off一] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ake-off+an} {http://m.youdao.com/dict?le=eng&q=ake-off+an} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [”回答的是] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22+answered} {http://m.youdao.com/dict?le=eng&q=%22+answered} EN2zh-CHS}
+ERROR: 2017/12/19 16:59:54 youdao.go:161: Decode to json failed json: cannot unmarshal array into Go struct field .value of type string
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  as small  [小] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+as+small+} {http://m.youdao.com/dict?le=eng&q=+as+small+} EN2zh-CHS}
+ERROR: 2017/12/19 16:59:54 youdao.go:161: Decode to json failed json: cannot unmarshal array into Go struct field .value of type string
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 runway of  [跑道的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=runway+of+} {http://m.youdao.com/dict?le=eng&q=runway+of+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 
+　　After a [
+后] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  safe, and [安全的,] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+safe%2C+and} {http://m.youdao.com/dict?le=eng&q=+safe%2C+and} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [再一次,厕所] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=again%2C+loo} {http://m.youdao.com/dict?le=eng&q=again%2C+loo} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  friend of [的朋友] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+friend+of} {http://m.youdao.com/dict?le=eng&q=+friend+of} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [说嗨] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=said+to+hi} {http://m.youdao.com/dict?le=eng&q=said+to+hi} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  are ants, [是蚂蚁,] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+are+ants%2C} {http://m.youdao.com/dict?le=eng&q=+are+ants%2C} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 and he had [他有] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=and+he+had} {http://m.youdao.com/dict?le=eng&q=and+he+had} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  two he op [两个他op] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+two+he+op} {http://m.youdao.com/dict?le=eng&q=+two+he+op} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 r a ride i [r骑我] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=r+a+ride+i} {http://m.youdao.com/dict?le=eng&q=r+a+ride+i} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 closed his [闭上了] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=closed+his} {http://m.youdao.com/dict?le=eng&q=closed+his} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  ground [地面] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+ground} {http://m.youdao.com/dict?le=eng&q=+ground} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 "
+　　"Those [“
+“那些] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 d the engi [d的注意事项] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=d+the+engi} {http://m.youdao.com/dict?le=eng&q=d+the+engi} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 as very wo [非常我] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=as+very+wo} {http://m.youdao.com/dict?le=eng&q=as+very+wo} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 
+　　His fri [
+他星期五] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+fri} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+fri} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 n his own  [n自己] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=n+his+own+} {http://m.youdao.com/dict?le=eng&q=n+his+own+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [ne和求] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ne+and+beg} {http://m.youdao.com/dict?le=eng&q=ne+and+beg} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 the airpor [的airpor] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=the+airpor} {http://m.youdao.com/dict?le=eng&q=the+airpor} EN2zh-CHS}
+ERROR: 2017/12/19 16:59:54 youdao.go:161: Decode to json failed json: cannot unmarshal array into Go struct field .value of type string
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 persuaded  [说服] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=persuaded+} {http://m.youdao.com/dict?le=eng&q=persuaded+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ked out of [绵羊蜱的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ked+out+of} {http://m.youdao.com/dict?le=eng&q=ked+out+of} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  Johnson b [约翰逊b] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+b} {http://m.youdao.com/dict?le=eng&q=+Johnson+b} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  eyes [眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+eyes} {http://m.youdao.com/dict?le=eng&q=+eyes} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [分钟] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+minute+or} {http://m.youdao.com/dict?le=eng&q=+minute+or} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 is friend  [是朋友] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=is+friend+} {http://m.youdao.com/dict?le=eng&q=is+friend+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  Finally,  [最后，] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [圣dangero] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=st+dangero} {http://m.youdao.com/dict?le=eng&q=st+dangero} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [一个航班] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+a+flight+} {http://m.youdao.com/dict?le=eng&q=+a+flight+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 een up in  [即使在] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=een+up+in+} {http://m.youdao.com/dict?le=eng&q=een+up+in+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 fered to t [可到t] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=fered+to+t} {http://m.youdao.com/dict?le=eng&q=fered+to+t} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 as ants, d [蚂蚁,维] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=as+ants%2C+d} {http://m.youdao.com/dict?le=eng&q=as+ants%2C+d} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [d的土地] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=d+the+land} {http://m.youdao.com/dict?le=eng&q=d+the+land} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  Johnson w [约翰逊w] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+w} {http://m.youdao.com/dict?le=eng&q=+Johnson+w} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 hose peopl [软管背影] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=hose+peopl} {http://m.youdao.com/dict?le=eng&q=hose+peopl} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ad never b [广告没有b] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ad+never+b} {http://m.youdao.com/dict?le=eng&q=ad+never+b} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 t about ai [t关于人工智能] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=t+about+ai} {http://m.youdao.com/dict?le=eng&q=t+about+ai} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 s, so one  [年代,一] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=s%2C+so+one+} {http://m.youdao.com/dict?le=eng&q=s%2C+so+one+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [约翰逊h] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+h} {http://m.youdao.com/dict?le=eng&q=+Johnson+h} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 t acceptin [t acceptin] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=t+acceptin} {http://m.youdao.com/dict?le=eng&q=t+acceptin} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [巷,] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=lane%2C+and+} {http://m.youdao.com/dict?le=eng&q=lane%2C+and+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  plane [平面] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+plane} {http://m.youdao.com/dict?le=eng&q=+plane} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ened them  [他们发生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ened+them+} {http://m.youdao.com/dict?le=eng&q=ened+them+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 him that i [他,我] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=him+that+i} {http://m.youdao.com/dict?le=eng&q=him+that+i} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [“我们圣] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+st} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+st} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [ne之前] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ne+before+} {http://m.youdao.com/dict?le=eng&q=ne+before+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 however, h [然而,h] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=however%2C+h} {http://m.youdao.com/dict?le=eng&q=however%2C+h} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  the windo [的windo] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+the+windo} {http://m.youdao.com/dict?le=eng&q=+the+windo} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 hat the mo [帽子的帽] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=hat+the+mo} {http://m.youdao.com/dict?le=eng&q=hat+the+mo} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 s friend,  [年代的朋友,] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=s+friend%2C+} {http://m.youdao.com/dict?le=eng&q=s+friend%2C+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [w p的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=w+of+the+p} {http://m.youdao.com/dict?le=eng&q=w+of+the+p} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ill on the [生病的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ill+on+the} {http://m.youdao.com/dict?le=eng&q=ill+on+the} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [一天一个] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=day+when+a} {http://m.youdao.com/dict?le=eng&q=day+when+a} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [广告听到t] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ad+heard+t} {http://m.youdao.com/dict?le=eng&q=ad+heard+t} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 r accident [r事故] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=r+accident} {http://m.youdao.com/dict?le=eng&q=r+accident} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 e down the [e下] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=e+down+the} {http://m.youdao.com/dict?le=eng&q=e+down+the} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 "Look at t [“看看t] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22Look+at+t} {http://m.youdao.com/dict?le=eng&q=%22Look+at+t} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 small phan [小的表象] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=small+phan} {http://m.youdao.com/dict?le=eng&q=small+phan} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ake him fo [ake他佛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ake+him+fo} {http://m.youdao.com/dict?le=eng&q=ake+him+fo} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0  [十、] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=tened+and+} {http://m.youdao.com/dict?le=eng&q=tened+and+} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 were the t [是t] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=were+the+t} {http://m.youdao.com/dict?le=eng&q=were+the+t} EN2zh-CHS}
+INFO: 2017/12/19 16:59:54 youdao.go:164: RESP:  {0 ing, so he [荷兰国际集团(ing),所以他] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=ing%2C+so+he} {http://m.youdao.com/dict?le=eng&q=ing%2C+so+he} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:200: 41 0 41
+INFO: 2017/12/19 17:01:13 youdao.go:200: 1 0 1
+INFO: 2017/12/19 17:01:13 youdao.go:200: 27 0 27
+INFO: 2017/12/19 17:01:13 youdao.go:200: 81 0 81
+INFO: 2017/12/19 17:01:13 youdao.go:200: 41 0 41
+INFO: 2017/12/19 17:01:13 youdao.go:200: 17 0 17
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:200: 175 0 175
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:200: 39 0 39
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:200: 3 0 3
+INFO: 2017/12/19 17:01:13 youdao.go:200: 145 0 145
+INFO: 2017/12/19 17:01:13 youdao.go:200: 73 0 73
+INFO: 2017/12/19 17:01:13 youdao.go:200: 26 0 26
+INFO: 2017/12/19 17:01:13 youdao.go:200: 142 0 142
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:01:13 youdao.go:165: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:01:45 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22&salt=53&sign=8fc77426bca4381fbd888df9345a3568&to=zh-CHS
+INFO: 2017/12/19 17:01:45 youdao.go:165: RESP:  {0  [第一次飞行
+约翰逊先生以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去看他自己的小飞机，约翰逊先生非常担心。然而，最后，他的朋友说服了他，那是非常安全的，约翰逊先生登上了飞机。
+他的朋友发动了引擎，开始在机场跑道上滑行。约翰逊先生听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛。
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人。它们看起来像蚂蚁一样小，不是吗?
+“那些是蚂蚁，”他的朋友回答。“我们还在地面上。”] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:151: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0 
+　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0  [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:03:03 youdao.go:165: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0 
+　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:29:17 youdao.go:168: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:31:06 youdao.go:154: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0 
+　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:31:07 youdao.go:168: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:33:04 youdao.go:172: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:45:15 youdao.go:172: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=f37cb06500b22c4d84b635e5cf6d7fd5&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=93ea27a3bc52c3fc941c265cbf154e03&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+Mr&salt=53&sign=9c130600b291e8c1aa9630ec947b0ef9&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=071aa6c60f71e988b70208c856621d47&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=936f536481ca3cfc1175759913effb63&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=a339d4479a75d85d4fc020d8211f2854&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=b35238cce39c102d815bcd6c6794863e&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=0b4cc434bbde7075789bc68a6e2f911e&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=b4dc1955d223e82b930773fc870e1112&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=6bc13df1c3ff85f749f9048b0ea5a6ad&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=15d647e69e253e4ac29f6b3bc675c9b7&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=%22&salt=53&sign=2004e8c1a170c47faa63132fae9e8e2b&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=2d09e8f26b6f31bb7f0540208e3a8b0d&to=zh-CHS
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:26 youdao.go:172: RESP:  {108  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:26 youdao.go:184: [108] Unvaliable AppKey
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=f6ec49a1df7a77a02cff7239c7319649&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=e10375696865807c590011cd8d0d4fcd&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=72fb0f314c8101086013dd548d7464ed&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=5df37198c11ba8b2e7924e3ce5fc48b1&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=5041c9a578cb1ca5de06bdd3597afa87&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=cc9ac822a5f7deb706abba9d2b1fa83d&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=e3ed71975eae92096c2f354acface509&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=f9c0217326eba1c64f9ec04a5d894035&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=aebd14bbccb46ef94d57e64b1f562db6&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=093a202e3393cf1e9fa42de684056afe&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=6096be02c3b0b0507de1c742cba47fd6&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=d13f641ad61f1e0b8fbc2d2f8d0afa33&to=zh-CHS
+INFO: 2017/12/19 17:45:58 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=527d5cddf6ddb183fa4eb53a23a26f8b&to=zh-CHS
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:45:59 youdao.go:172: RESP:  {202  [] {[]} [] {} {} EN2zh-CHS}
+ERROR: 2017/12/19 17:45:59 youdao.go:190: [202] MD5 check error
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0 
+　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:47:06 youdao.go:171: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:47:45 youdao.go:171: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:48:29 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22&salt=53&sign=8fc77426bca4381fbd888df9345a3568&to=zh-CHS
+INFO: 2017/12/19 17:48:29 youdao.go:171: RESP:  {0  [第一次飞行
+约翰逊先生以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去看他自己的小飞机，约翰逊先生非常担心。然而，最后，他的朋友说服了他，那是非常安全的，约翰逊先生登上了飞机。
+他的朋友发动了引擎，开始在机场跑道上滑行。约翰逊先生听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛。
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人。它们看起来像蚂蚁一样小，不是吗?
+“那些是蚂蚁，”他的朋友回答。“我们还在地面上。”] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr.+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr.+Johnson+was+very+worried+about+accepting.+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr.+Johnson+boarded+the+plane.%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport.+Mr.+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes.%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there.+They+look+as+small+as+ants%2C+don%27t+they%3F%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend.+%22We%27re+still+on+the+ground.%22} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  Finally, however, his friend persuaded him that it was very safe, and Mr [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:48:42 youdao.go:171: RESP:  {0 
+　　After a minute or two he opened them again, looked out of the window of the plane, and said to his friend, "Look at those people down there [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:158: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  They look as small as ants, don't they [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0 First Flight
+　　Mr [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:50:22 youdao.go:171: RESP:  {0  [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr&salt=53&sign=debcaba99d142617b230891db18685c8&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Mr&salt=53&sign=b2d91b71c8b66451a9677e99bc2f9c5e&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport&salt=53&sign=b652d8e5cf0d9dc95e6581cd08d2ddf9&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there&salt=53&sign=9a277f32cd3b5b6750eba8bb8c6b90af&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes&salt=53&sign=b7bc8bb72a17bfe89d5f25773dd77eb9&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr&salt=53&sign=06ad8f44a913e29bfd53ce734486b73a&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+was+very+worried+about+accepting&salt=53&sign=beb72ab90d4e99171538094df0a5c8cb&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+Johnson+boarded+the+plane&salt=53&sign=be85f9edffdf718d62c920c511481eee&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend&salt=53&sign=665eba9a11d4d72f921ced0400f056bc&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+They+look+as+small+as+ants%2C+don%27t+they&salt=53&sign=32571df5e23118172e23b9cb0371ad5a&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=+%22We%27re+still+on+the+ground&salt=53&sign=1b1716c9bc1147946d05f1eebd8bc218&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=%22&salt=53&sign=d61dd2732a96874e7ecf75c5cd10ee49&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:188: URL REQ:  openapi.youdao.com /api appKey=2ccac2276928012f&from=EN&q=First+Flight%0A%E3%80%80%E3%80%80Mr&salt=53&sign=b3d414dfdbf9d005507d7b84306440b0&to=zh-CHS
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  [
+过了一两分钟，他又睁开眼睛，望着窗外的飞机，对他的朋友说:“看看下面那些人] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80After+a+minute+or+two+he+opened+them+again%2C+looked+out+of+the+window+of+the+plane%2C+and+said+to+his+friend%2C+%22Look+at+those+people+down+there} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  Johnson was very worried about accepting [约翰逊非常担心接受这个问题] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} {http://m.youdao.com/dict?le=eng&q=+Johnson+was+very+worried+about+accepting} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  [最后，他的朋友劝他说，这是非常安全的] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} {http://m.youdao.com/dict?le=eng&q=+Finally%2C+however%2C+his+friend+persuaded+him+that+it+was+very+safe%2C+and+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  [第一次飞行
+先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} {http://m.youdao.com/dict?le=eng&q=First+Flight%0A%E3%80%80%E3%80%80Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  "We're still on the ground [“我们还在地面上。] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} {http://m.youdao.com/dict?le=eng&q=+%22We%27re+still+on+the+ground} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  Mr [先生] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Mr} {http://m.youdao.com/dict?le=eng&q=+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0 " [“] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22} {http://m.youdao.com/dict?le=eng&q=%22} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  Johnson had never been up in an aerophane before and he had read a lot about air accidents, so one day when a friend offered to take him for a ride in his own small phane, Mr [约翰逊以前从来没有乘过飞机，他读过很多关于空难的报道，所以有一天，一位朋友主动提出带他去坐自己的小飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+never+been+up+in+an+aerophane+before+and+he+had+read+a+lot+about+air+accidents%2C+so+one+day+when+a+friend+offered+to+take+him+for+a+ride+in+his+own+small+phane%2C+Mr} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0 "
+　　"Those are ants," answered his friend [“
+“那些是蚂蚁，”他的朋友回答] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} {http://m.youdao.com/dict?le=eng&q=%22%0A%E3%80%80%E3%80%80%22Those+are+ants%2C%22+answered+his+friend} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  Johnson boarded the plane [约翰逊登上飞机] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} {http://m.youdao.com/dict?le=eng&q=+Johnson+boarded+the+plane} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  Johnson had heard that the most dangerous part of a flight were the take-off and the landing, so he was extremely frightened and closed his eyes [约翰逊听说飞行中最危险的部分是起飞和降落，所以他非常害怕，闭上了眼睛] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} {http://m.youdao.com/dict?le=eng&q=+Johnson+had+heard+that+the+most+dangerous+part+of+a+flight+were+the+take-off+and+the+landing%2C+so+he+was+extremely+frightened+and+closed+his+eyes} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0 
+　　His friend started the engine and began to taxi onto the runway of the airport [
+他的朋友发动了引擎，开始在机场跑道上滑行] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} {http://m.youdao.com/dict?le=eng&q=%0A%E3%80%80%E3%80%80His+friend+started+the+engine+and+began+to+taxi+onto+the+runway+of+the+airport} EN2zh-CHS}
+INFO: 2017/12/19 17:51:59 youdao.go:201: RESP:  {0  [它们看起来像蚂蚁一样小，不是吗] {[]} [] {yddict://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} {http://m.youdao.com/dict?le=eng&q=+They+look+as+small+as+ants%2C+don%27t+they} EN2zh-CHS}
